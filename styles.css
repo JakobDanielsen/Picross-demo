@@ -1,0 +1,35 @@
+
+.canvas {
+    background-color: rgb(66, 61, 61);
+    padding: 10px;
+    border-radius: 15px;
+    user-select: none;
+    box-shadow: 30px 30px rgb(209, 209, 209);
+}
+
+
+
+
+.square {
+    background-color: white;
+    height: 150px;
+    width: 150px;
+    border-radius: 15px;
+    margin: 0;
+    display: inline-block;
+}
+
+.square:hover{
+    border-width: 3px;
+    border-color: rgba(129, 120, 209, 0.986);
+    border-style: solid;
+
+}
+
+.filled{
+    background-color:rgb(66, 61, 61);
+    border-width: 3px;
+    border-color: white;
+    border-style: solid;
+    
+}
